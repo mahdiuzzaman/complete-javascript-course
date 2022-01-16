@@ -3,21 +3,22 @@
     "browser": true,
     "es2021": true
   },
+
   "extends": [
     "eslint:recommended",
     "airbnb",
     "prettier",
     "plugin:node/recommended"
   ],
-  "plugins": ["prettier"],
+
   "rules": {
-    "prettier/prettier": "error",
     "no-unused-vars": "warn",
-    "no-console": "warn",
     "func-names": "warn",
     "no-process-exit": "warn",
     "object-shorthand": "warn",
     "class-methods-use-this": "error",
-    "strict": "off"
+    "strict": "off",
+    "no-console": "off",
+    "no-plusplus": "off"
   }
 }
