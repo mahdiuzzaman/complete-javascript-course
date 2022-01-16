@@ -3,14 +3,12 @@
     "browser": true,
     "es2021": true
   },
-
   "extends": [
     "eslint:recommended",
     "airbnb",
     "prettier",
     "plugin:node/recommended"
   ],
-
   "rules": {
     "no-unused-vars": "warn",
     "func-names": "warn",

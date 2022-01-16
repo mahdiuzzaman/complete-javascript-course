@@ -26,3 +26,4 @@ const restaurant = {
 const { openingHours } = restaurant;
 const { fri: { open, close } } = openingHours;
 console.log(open, close);
+
