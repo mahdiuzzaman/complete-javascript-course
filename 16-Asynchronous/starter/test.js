@@ -1,11 +1,9 @@
 'use strict';
 
-let data1;
-
+// returns a promise which eventually resolves
+// to Response type object which represents a HTTM response
 fetch('https://restcountries.com/v3.1/name/portugal')
     .then(response => response.json())
-    .then(data => {
-        data1 = data;
-        return undefined;
-    })
-    .then(() => console.log(data1));
+    // returns a promis which eventually resolves to
+    // a JS object persed by json()
+    .then(data => console.log(data));
