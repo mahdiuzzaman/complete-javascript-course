@@ -20,6 +20,7 @@ const Student = function (firstName, birthYear, course) {
 // create new  object using Object.create
 // this new object has property __proto__ , constructor etc 
 // set __proto__ === Person.prototype in the new object 
+// set __proto__ is done by Object.create
 
 // we could also do Student.prototype.__pro__ = Person.prototype 
 // but it is not recommended and very slow for optimization 

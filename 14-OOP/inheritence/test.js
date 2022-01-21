@@ -1,8 +1,8 @@
 'use strict';
 
-const man = function (a) {
+function man(a) {
     this.name = a;
-};
+}
 
 const jonas = { name: 'blabla' };
 
