@@ -1,21 +1,26 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "extends": [
-    "eslint:recommended",
-    "airbnb",
-    "plugin:node/recommended"
-  ],
-  "rules": {
-    "no-unused-vars": "warn",
-    "func-names": "warn",
-    "no-process-exit": "warn",
-    "object-shorthand": "warn",
-    "class-methods-use-this": "error",
-    "strict": "off",
-    "no-console": "off",
-    "no-plusplus": "off"
-  }
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "airbnb",
+        "plugin:node/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-unused-vars": "warn",
+        "func-names": "warn",
+        "no-process-exit": "warn",
+        "object-shorthand": "warn",
+        "class-methods-use-this": "error",
+        "strict": "off",
+        "no-console": "off",
+        "no-plusplus": "off",
+        "indent": "off"
+    }
 }
