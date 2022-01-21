@@ -14,13 +14,17 @@
     },
     "rules": {
         "no-unused-vars": "warn",
-        "func-names": "warn",
         "no-process-exit": "warn",
         "object-shorthand": "warn",
         "class-methods-use-this": "error",
         "strict": "off",
         "no-console": "off",
         "no-plusplus": "off",
-        "indent": "off"
+        "func-names": "off",
+        "indent": "off",
+        "arrow-parens": [
+            "error",
+            "as-needed"
+        ]
     }
 }
